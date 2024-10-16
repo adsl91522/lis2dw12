@@ -1,4 +1,4 @@
-### lis2dw12 driver sample dev in Zephyr environment
+### lis2dw12 driver sample dev in NCS (Zephyr) environment
 ----
 ### Zephyr SDK environment
 - Install toolchain
@@ -12,7 +12,7 @@ setup.cmd
 ```
 pip3 install -U west
 ```
-- nRF Connect SDK v2.5.2
+- NCS (nRF Connect SDK) v2.5.2
 ```
 west init -m https://github.com/nrfconnect/sdk-nrf --mr v2.5.2
 west update
